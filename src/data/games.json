@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "iframeUrl": "https://play2048.co/",
+    "category": "Puzzle",
+    "thumbnail": "https://images.unsplash.com/photo-1628157512217-efb4507d2c3e?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris",
+    "description": "The classic block-stacking puzzle game.",
+    "iframeUrl": "https://tetris.com/play-tetris",
+    "category": "Classic",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "dino-run",
+    "title": "Dino Run",
+    "description": "The unblocked version of the famous chrome dinosaur game.",
+    "iframeUrl": "https://chromedino.com/",
+    "category": "Action",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "snake",
+    "title": "Google Snake",
+    "description": "The timeless snake game from Google search.",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html",
+    "category": "Classic",
+    "thumbnail": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "paper-io",
+    "title": "Paper.io 2",
+    "description": "Capture as much territory as possible.",
+    "iframeUrl": "https://paper-io.com/",
+    "category": "IO Games",
+    "thumbnail": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird",
+    "description": "Classic Flappy Bird clone. Don't hit the pipes!",
+    "iframeUrl": "https://flappybird.io/",
+    "category": "Arcade",
+    "thumbnail": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "The ultimate running game that will put your skills to the test.",
+    "iframeUrl": "https://slope-game.github.io/",
+    "category": "Action",
+    "thumbnail": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "chess",
+    "title": "Lichess",
+    "description": "Play chess online against the computer or your friends.",
+    "iframeUrl": "https://lichess.org/export",
+    "category": "Strategy",
+    "thumbnail": "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "minesweeper",
+    "title": "Minesweeper",
+    "description": "Classical logic puzzle game. Find all the mines!",
+    "iframeUrl": "https://minesweeper.online/",
+    "category": "Puzzle",
+    "thumbnail": "https://images.unsplash.com/photo-1594191428581-228738a16db3?q=80&w=400&h=300&auto=format&fit=crop"
+  }
+]
