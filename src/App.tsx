@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "motion/react";
-import { useState, useEffect, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { 
   Gamepad2, 
   Search, 
@@ -7,25 +7,33 @@ import {
   Maximize2, 
   Minimize2, 
   Trophy, 
-  Clock, 
   Flame, 
   Monitor
 } from "lucide-react";
 import gamesData from "./data/games.json";
 
+interface Game {
+  id: string;
+  title: string;
+  description: string;
+  iframeUrl: string;
+  category: string;
+  thumbnail: string;
+}
+
 export default function App() {
-  const [selectedGame, setSelectedGame] = useState(null);
+  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("All");
   const [isFullScreen, setIsFullScreen] = useState(false);
 
   const categories = useMemo(() => {
-    const cats = ["All", ...new Set(gamesData.map(g => g.category))];
+    const cats = ["All", ...new Set(gamesData.map((g: Game) => g.category))];
     return cats;
   }, []);
 
   const filteredGames = useMemo(() => {
-    return gamesData.filter(game => {
+    return (gamesData as Game[]).filter(game => {
       const matchesSearch = game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                           game.description.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesCategory = activeCategory === "All" || game.category === activeCategory;
